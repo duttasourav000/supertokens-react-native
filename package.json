@@ -32,9 +32,9 @@
   },
   "homepage": "https://github.com/supertokens/supertokens-react-native#readme",
   "peerDependencies": {
+    "@react-native-async-storage/async-storage": ">=1.13.0 <2.0.x",
     "axios": "*",
-    "react-native": ">=0.61.5 <1.0.x",
-    "@react-native-async-storage/async-storage": ">=1.13.0 <2.0.x"
+    "react-native": ">=0.61.5 <1.0.x"
   },
   "devDependencies": {
     "@react-native-async-storage/async-storage": "^1.13.0",
@@ -44,12 +44,12 @@
     "axios": "*",
     "prettier": "1.18.2",
     "size-limit": "^6.0.4",
-    "typescript": "4.4.3",
-    "typedoc": "^0.22.5"
+    "typedoc": "^0.22.5",
+    "typescript": "4.4.3"
   },
   "dependencies": {
     "base-64": "^1.0.0",
-    "react-native-url-polyfill": "^2.0.0",
+    "react-native-url-polyfill": "github:duttasourav000/react-native-url-polyfill#remove-dependency-on-punycode",
     "supertokens-js-override": "^0.0.4"
   },
   "size-limit": [
